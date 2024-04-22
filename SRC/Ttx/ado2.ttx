@@ -1,0 +1,23 @@
+tDocumento	string	50	
+fFecha	date	20	
+tIdentidad	string	15	
+Descripcion	string	50	
+nNeto	Number	
+nImpuesto1	Number	
+nImpuesto2	Number	
+nImpuesto3	Number	
+nVenta	Number	
+nRecargo	Number	
+nDescuento	Number	
+TipoPago	string	50	
+Estado	string	15	
+Sunat	string	15	
+nNetoSuma	Number	
+nImpuestoSuma1	Number	
+nImpuestoSuma2	Number	
+nImpuestoSuma3	Number	
+nVentaSuma	Number	
+nRecargoSuma	Number	
+nDescuentoSuma	Number	
+tDescripcion	string	50	
+tNumero	string	50	

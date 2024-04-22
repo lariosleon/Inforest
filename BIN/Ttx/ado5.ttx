@@ -1,0 +1,11 @@
+CodigoPedido	string	50	
+Fecha	date	20	
+CodInsumo	string	100
+Insumo	string	100		
+CantReceta	Number	
+CostoUnitario	Number	
+TotalConsumo	Number	
+TotalCosto	Number	
+Area	string	100		
+Stock	Number	
+Diferencia	Number	

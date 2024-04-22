@@ -1,0 +1,19 @@
+tCodigoPedido	string	15
+fecha	string	50
+tItem	string	3
+tResumido	string	50
+fregistro	string	50
+nCantidad	Number
+nVenta	Number
+fEnvio	string	50
+tSalon	string	50
+Descripcion	string	50
+tGrupo	string	2
+tSubGrupo	string	4
+tCodigoProducto	string	7
+tClienteDelivery	string	10
+Cliente	string	200
+tTurno	string	15
+tUsuarioAutorizaEnvio	string	15
+tPerfilUsuarioAutoriza	string	2
+tUsuario	string	15

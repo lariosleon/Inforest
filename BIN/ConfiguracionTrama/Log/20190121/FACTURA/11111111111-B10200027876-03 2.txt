@@ -1,0 +1,42 @@
+FECHA REG: 2019-01-21 16:12:44
+
+RUC: 11111111111
+
+SEND: @**@2	1	20537995581	 002	03	EN|03|B102-00027876||||2019-01-21|PEN|20537995581|6|                                                             Restaurant pruebas infomatica Comercial|                                                                Restaurant pruebas infomatica Social|150101|                                                                     Av. Angamos Oeste 1494  - dir 1|                LIMA|                LIMA|                          LIMA|              0|0|                                                                                  PRUEBA DE SISTEMAS|                                                                                                 JJK|24.61|4.43|0.00|2.46|31.50||24.61|              0|0|PE|
+ENEX|2.1|0101||||2019-01-21|16:13:00|1000|31.5|
+DOC|1001|24.61|||
+DOC|2005|0|||
+DN| 1|1000|                                                                         TREINTA Y UN y 50/100 Soles|
+DE|001|14.00|NIU|1.00|10.08|                       0001257|01|10.94|14.00||||
+DEDI|Aceitunas verdes con roc
+DEDR|false|0
+DEIM|1.97|31.50|1.97|18||10||1000|IGV|VAT
+DE|002|14.00|NIU|1.00|10.08|                       0001243|01|10.94|14.00||||
+DEDI|Aceitunas verdes rellena
+DEDR|false|0
+DEIM|1.97|31.50|1.97|18||10||1000|IGV|VAT
+DE|003|3.50|NIU|1.00|2.52|                       0001071|01|2.73|3.50||||
+DEDI|*Aceite Oliva
+DEDR|false|0
+DEIM|0.49|31.50|0.49|18||10||1000|IGV|VAT
+DI|4.43|4.43|1000|   IGV|VAT|
+PE|CorreoCliente|ERIK@HOTMAIL.COM
+PE|NomSuc|Restaurant pruebas infomatica Comercial
+PE|DirSuc|Prueba direccion 2
+PE|TelSuc|Teléfono: 626-1313 Delivery:705-8885
+PE|Pedido|1900000046
+PE|HoraEmision|  4:13:00 PM
+PE|Tipo|Para Llevar
+PE|CAJA|002 - JCARDENAS
+PE|Mesero|
+PE|NroSerie|
+PE|Obs|
+PE|ValorISC|0%
+PE|ValorIGV|18%
+PE|Servicio|10%
+PE|PagWeb|www.RestaurantPrueba.com
+PE|SubTotal|31.50
+PES|MensajesDt
+PESD|1|GRACIAS POR SU VISITA*@@*
+
+RECEIVE: 0	La operacion ha sido exitosa	F012-7200364	F012-7200364	F012-7200364

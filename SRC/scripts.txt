@@ -1,0 +1,27 @@
+vcompania2
+
+SELECT     tCodigoDelivery AS codigo, tApellido + ' ' + tNombre AS tnomSoc, tApellido + ' ' + tNombre AS Descripcion, tDireccion, tTelefono, lActivo, tEmail, 
+                      ISNULL(nConsumo, 0) AS nConsumo, ISNULL(nLinea, 0) AS nLinea, ISNULL(nLinea, 0) - ISNULL(nConsumo, 0) AS nSaldo, fRegistro, tUsuario, 
+                      tTipoCtaCte, tSubTipoCtaCte, ISNULL(lClienteCtaCte, 0) AS lclientrectacte
+FROM         dbo.TDELIVERY
+WHERE     (lActivo = 1) AND (lClienteCtaCte = 1)
+
+
+'===========
+
+vctacte
+
+SELECT     dbo.MPEDIDO.tCodigoPedido AS Codigo, dbo.MPEDIDO.fFecha, dbo.vSalon.tResumido + N' - ' + dbo.TMESA.tResumido AS Mesa, dbo.MPEDIDO.tCaja, 
+                      dbo.DPEDIDO.tItem, dbo.TPRODUCTO.tResumido AS Producto, dbo.DPEDIDO.nPrecioOficial, dbo.DPEDIDO.nCantidad, dbo.DPEDIDO.nPrecioNeto, 
+                      dbo.DPEDIDO.nImpuesto1, dbo.DPEDIDO.nImpuesto2, dbo.DPEDIDO.nImpuesto3, dbo.DPEDIDO.nVenta, dbo.MPEDIDO.tObservacion, 
+                      dbo.MPEDIDO.tMesa, dbo.vMozo.Descripcion AS Mozo, dbo.DPEDIDO.tFacturado, RTRIM(dbo.TDELIVERY.tApellido) 
+                      + '  ' + RTRIM(dbo.TDELIVERY.tNombre) AS Cliente, dbo.TDELIVERY.nLinea - dbo.TDELIVERY.nConsumo AS nSaldo, dbo.TDELIVERY.nLinea, 
+                      ISNULL(dbo.MPEDIDO.tUsuario, N'') AS tusuario
+FROM         dbo.vSalon RIGHT OUTER JOIN
+                      dbo.TMESA ON dbo.vSalon.Codigo = dbo.TMESA.tSalon RIGHT OUTER JOIN
+                      dbo.vMozo RIGHT OUTER JOIN
+                      dbo.TDELIVERY RIGHT OUTER JOIN
+                      dbo.MPEDIDO ON dbo.TDELIVERY.tCodigoDelivery = dbo.MPEDIDO.tClienteCtaCte ON dbo.vMozo.Codigo = dbo.MPEDIDO.tMozo ON 
+                      dbo.TMESA.tCodigoMesa = dbo.MPEDIDO.tMesa RIGHT OUTER JOIN
+                      dbo.TPRODUCTO RIGHT OUTER JOIN
+                      dbo.DPEDIDO ON dbo.TPRODUCTO.tCodigoProducto = dbo.DPEDIDO.tCodigoProducto ON dbo.MPEDIDO.tCodigoPedido = dbo.DPEDIDO.tCodigoPedido

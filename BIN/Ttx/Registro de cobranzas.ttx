@@ -1,0 +1,16 @@
+tDocumento	string	15	
+fRegistro	date	20	
+nEfectivoSoles	Number		
+nChequeSoles	Number		
+nVenta	Number		
+nEfectivoMN	Number		
+nEfectivoME	Number		
+nTarjeta	Number		
+nPropina	Number			
+nChequeMN	Number		
+nChequeME	Number		
+nOtro	Number		
+nPunto	Number		
+nCortesia	Number		
+nCobrar	Number		
+Estado	Number		

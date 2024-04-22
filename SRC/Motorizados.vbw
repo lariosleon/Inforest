@@ -1,0 +1,10 @@
+modMotorizado = 30, 0, 983, 614, C
+modProcedimiento = 14, 83, 967, 628, 
+modDeclaracion = 122, 29, 1013, 605, 
+frmLlegadaSalida = 22, 22, 987, 631, , 44, 44, 640, 488, C
+modConexionIp = 0, 0, 0, 0, C
+CodigoControl = 0, 0, 0, 0, C
+modSeguridadInfhotel = 0, 0, 0, 0, C
+clsComando = 0, 0, 0, 0, C
+claCorreoElectronico = 0, 0, 0, 0, C
+clsTrama = 0, 0, 0, 0, C

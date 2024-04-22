@@ -1,0 +1,117 @@
+<TABLE class=form-table cellSpacing=3 cellPadding=2 width="100%" border=0>
+<TBODY>
+<TR>
+<TD class=bgn width="18%">Número de RUC: </TD>
+<TD class=bg colSpan=3>10721276762 - DE LA CRUZ QUISPE ERICK LEONARDO</TD></TR>
+<TR>
+<TD class=bgn>Tipo Contribuyente: </TD>
+<TD class=bg colSpan=3>PERSONA NATURAL SIN NEGOCIO</TD></TR>
+<TR>
+<TD class=bgn>Tipo de Documento: </TD>
+<TD class=bg colSpan=3>DNI 72127676 - DE LA CRUZ QUISPE, ERICK LEONARDO </TD></TR>
+<TR>
+<TD class=bgn>Nombre Comercial: </TD>
+<TD class=bg>-</TD></TR>
+<TR>
+<TD class=bgn>Fecha de Inscripción: </TD>
+<TD class=bg>27/09/2012</TD>
+<TD class=bgn width="27%">Fecha de Inicio de Actividades:</TD>
+<TD class=bg>27/09/2012</TD></TR>
+<TR>
+<TD class=bgn>Estado del Contribuyente: </TD>
+<TD class=bg>ACTIVO</TD>
+<TD class=bgn></TD></TR>
+<TR>
+<TD class=bgn>Condición del Contribuyente:</TD>
+<TD class=bg>HABIDO </TD>
+<TD class=bgn>Profesión u Oficio:</TD>
+<TD class=bg>99 - PROFESION U OCUPACION NO ESPECIFICADA</TD></TR>
+<TR>
+<TD class=bgn>Dirección del Domicilio Fiscal:</TD>
+<TD class=bg colSpan=3>-</TD></TR>
+<TR>
+<TD class=bgn>Sistema de Emisión de Comprobante:</TD>
+<TD class=bg>MANUAL</TD>
+<TD class=bgn>Actividad de Comercio Exterior:</TD>
+<TD class=bg>SIN ACTIVIDAD</TD></TR>
+<TR>
+<TD class=bgn>Sistema de Contabilidad:</TD>
+<TD class=bg colSpan=3>MANUAL</TD></TR>
+<TR><!--I#P_SNADE003-1#20141109#CFS--><!--<td class="bgn" colspan=1>Actividad(es) Econ&oacute;mica(s):</td>-->
+<TD class=bgn>Actividad(es) Económica(s):</TD><!--F#P_SNADE003-1#20141109#CFS-->
+<TD class=bg colSpan=3><!--I#P_SNADE003-1#20141109#CFS--><!-- <select name="select" >--><!--   --><!--   <option value="00" > Principal        - CIIU 74996 - OTRAS ACTIVIDADES EMPRESARIALES NCP. </option>--><!--   --><!--   --><!--   --><!--   --><!-- </select>	--><SELECT name=select> <OPTION selected value=00>74996 - OTRAS ACTIVIDADES EMPRESARIALES NCP.</OPTION></SELECT> <!--F#P_SNADE003-1#20141109#CFS--></TD></TR>
+<TR>
+<TD class=bgn>Comprobantes de Pago c/aut. de impresión (F. 806 u 816): </TD>
+<TD class=bg colSpan=3><SELECT name=select> <OPTION selected value=00>NINGUNO</OPTION></SELECT> </TD></TR><!--  PCR Inicio Cambios  -->
+<TR>
+<TD class=bgn>Sistema de Emision Electronica: </TD>
+<TD class=bg colSpan=3><SELECT name=select> <OPTION selected value=00>RECIBOS POR HONORARIOS AFILIADO DESDE 27/09/2012</OPTION></SELECT> </TD></TR><!--  MLR Inicio Cambios P_DSNT_CPLE_0009_5_FE-MASIFICACION-->
+<TR>
+<TD class=bgn>Emisor electrónico desde: </TD>
+<TD class=bg colSpan=3>27/09/2012</TD></TR>
+<TR>
+<TD class=bgn>Comprobantes Electrónicos: </TD>
+<TD class=bg colSpan=3>RECIBO POR HONORARIO (desde 27/09/2012)</TD></TR><!--  MLR Fin Cambios P_DSNT_CPLE_0009_5_FE-MASIFICACION-->
+<TR>
+<TD class=bgn>Afiliado al PLE desde: </TD>
+<TD class=bg colSpan=3>- </TD></TR><!--  PCR Fin Cambios     -->
+<TR>
+<TD class=bgn>Padrones :</TD>
+<TD class=bg colSpan=3><SELECT name=select> <OPTION selected value=00>NINGUNO</OPTION></SELECT> 
+<DIV id=print style="DISPLAY: none">
+<TABLE class=form-table cellSpacing=2 cellPadding=3 width="100%">
+<TBODY>
+<TR>
+<TD class=t1><FONT size=2>CONSULTA RUC: 10721276762 - DE LA CRUZ QUISPE ERICK LEONARDO</FONT></TD></TR></TBODY></TABLE>
+<TABLE class=form-table cellSpacing=3 cellPadding=2 width="100%" border=1>
+<TBODY>
+<TR>
+<TD class=bgn width="18%">Número de RUC: </TD>
+<TD class=bg colSpan=3>10721276762 - DE LA CRUZ QUISPE ERICK LEONARDO</TD></TR>
+<TR>
+<TD class=bgn>Tipo Contribuyente: </TD>
+<TD class=bg colSpan=3>PERSONA NATURAL SIN NEGOCIO</TD></TR>
+<TR>
+<TD class=bgn>Tipo de Documento: </TD>
+<TD class=bg colSpan=3>DNI 72127676 - DE LA CRUZ QUISPE, ERICK LEONARDO </TD></TR>
+<TR>
+<TD class=bgn>Nombre Comercial: </TD>
+<TD class=bg>-</TD></TR>
+<TR>
+<TD class=bgn>Fecha de Inscripción: </TD>
+<TD class=bg>27/09/2012</TD>
+<TD class=bgn width="27%">Fecha Inicio de Actividades:</TD>
+<TD class=bg>27/09/2012</TD></TR>
+<TR>
+<TD class=bgn>Estado del Contribuyente: </TD>
+<TD class=bg>ACTIVO</TD>
+<TD class=bgn></TD></TR>
+<TR>
+<TD class=bgn>Condición del Contribuyente:</TD>
+<TD class=bg>HABIDO </TD>
+<TD class=bgn>Profesión u Oficio:</TD>
+<TD class=bg>99 - PROFESION U OCUPACION NO ESPECIFICADA</TD></TR>
+<TR>
+<TD class=bgn>Dirección del Domicilio Fiscal:</TD>
+<TD class=bg colSpan=3>-</TD></TR>
+<TR>
+<TD class=bgn>Sistema de Emisión de Comprobante:</TD>
+<TD class=bg>MANUAL</TD>
+<TD class=bgn>Actividad de Comercio Exterior:</TD>
+<TD class=bg>SIN ACTIVIDAD</TD></TR>
+<TR>
+<TD class=bgn>Sistema de Contabilidad:</TD>
+<TD class=bg colSpan=3>MANUAL</TD></TR>
+<TR>
+<TD class=bgn>Actividad(es) Económica(s):</TD>
+<TD class=bg colSpan=3>Principal - 74996 - OTRAS ACTIVIDADES EMPRESARIALES NCP.<BR><!--SC003-2015 Fin--><!--SC003-2015 Fin--></TD></TR>
+<TR>
+<TD class=bgn>Comprobantes de Pago c/aut. de impresión (F. 806 u 816): </TD>
+<TD class=bg colSpan=3>NINGUNO <BR></TD></TR><!--ICR Inicio Cambios 23/11/2010 -->
+<TR>
+<TD class=bgn>Sistema de Emisión Electrónica: </TD>
+<TD class=bg colSpan=3><BR>RECIBOS POR HONORARIOS AFILIADO DESDE 27/09/2012 </TD></TR>
+<TR>
+<TD class=bgn>Afiliado al PLE desde: </TD>
+<TD class=bg colSpan=3>- </TD></TR><!--ICR Fin Cambios 23/11/2010 -->
+<TR></TR></TBODY></DIV></TR></TBODY></TABLE>

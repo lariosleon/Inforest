@@ -1,0 +1,45 @@
+FECHA REG: 2019-01-21 16:15:49
+
+RUC: 11111111111
+
+SEND: @**@2	1	20537995581	 002	07	EN|07|B102-00000192|01|B102-00027875|Anulación de la operación|2019-01-21|PEN|20537995581|6|                                                             Restaurant pruebas infomatica Comercial|                                                                Restaurant pruebas infomatica Social|150101|                                                                     Av. Angamos Oeste 1494  - dir 1||||       48880023|1|                                                                                  PRUEBA DE SISTEMAS|                                                                                                 JJK|29.69|5.34|0.00|2.97|38.00||38.00|       48880023|1|PE||||||||||||||||||||||||||||||||01|
+ENEX|2.1|0101||||2019-01-21|16:16:00|1000|38|
+DOC|1001|29.69|||
+DN| 1|1000|                                                                       TREINTA Y OCHO y 00/100 Soles|
+DE|001|12.00| ZZ|1.00|8.64|                       0001241|01|9.38|12.00||||
+DEDI|Aceitunas negras sin pep
+DEDI|12
+DEDR|false|0
+DEIM|1.69|38.00|1.69|18||10||1000|IGV|VAT
+DE|002|14.00| ZZ|1.00|10.08|                       0001243|01|10.94|14.00||||
+DEDI|Aceitunas verdes rellena
+DEDI|14
+DEDR|false|0
+DEIM|1.97|38.00|1.97|18||10||1000|IGV|VAT
+DE|003|12.00| ZZ|1.00|8.64|                       0001241|01|9.38|12.00||||
+DEDI|Aceitunas negras sin pep
+DEDI|12
+DEDR|false|0
+DEIM|1.69|38.00|1.69|18||10||1000|IGV|VAT
+DI|5.34|5.34|1000|   IGV|VAT
+RE|B102-00027875|2019-01-21|03|
+PE|CorreoCliente|ERIK@HOTMAIL.COM
+PE|NomSuc|Restaurant pruebas infomatica Comercial
+PE|DirSuc|Prueba direccion 2
+PE|TelSuc|Telefono: 626-1313 Delivery:705-8885
+PE|Pedido|1900000047
+PE|HoraEmision|  4:16:00 PM
+PE|Tipo|Para Llevar
+PE|CAJA|002 - JCARDENAS
+PE|Mesero|
+PE|NroSerie|
+PE|Obs|
+PE|ValorISC|0%
+PE|ValorIGV|18%
+PE|Servicio|10%
+PE|PagWeb|www.RestaurantPrueba.com
+PE|SubTotal|38.00
+PES|MensajesDt
+PESD|1|GRACIAS POR SU VISITA*@@*
+
+RECEIVE: 0	La operacion ha sido exitosa	F012-1999804	F012-1999804	F012-1999804

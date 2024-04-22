@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<Invoice xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2" xmlns:cts="urn:carvajal:names:specification:ubl:peru:schema:xsd:CarvajalAggregateComponents-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2">
+  <ext:UBLExtensions>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <sac:AdditionalInformation xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1">
+          <sac:AdditionalMonetaryTotal>
+            <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">1001</ID>
+            <sac:ReferenceAmount currencyID="PEN">0</sac:ReferenceAmount>
+            <PayableAmount currencyID="PEN" xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">64.83</PayableAmount>
+            <Percent xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">0</Percent>
+          </sac:AdditionalMonetaryTotal>
+          <sac:AdditionalProperty>
+            <ID xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">1000</ID>
+            <Value xmlns="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2">SETENTA Y SEIS Y 50/100 Nuevos Soles</Value>
+          </sac:AdditionalProperty>
+        </sac:AdditionalInformation>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <cts:AdditionalDocumentInformation xmlns:cts="urn:carvajal:names:specification:ubl:peru:schema:xsd:CarvajalAggregateComponents-1">
+          <cts:Header>
+            <cts:TaxAuthorityResolutionNumber>0180050000781</cts:TaxAuthorityResolutionNumber>
+            <cts:Printer />
+            <cts:Copies />
+            <cts:IDRecept>0</cts:IDRecept>
+            <cts:isCancel>0</cts:isCancel>
+            <cts:CancelReason />
+            <cts:PDFTemplate>PXP-F055CN</cts:PDFTemplate>
+            <cts:DocumentSubType>03</cts:DocumentSubType>
+            <cts:AdditionalInformation />
+            <cts:TotalTaxes>11.67</cts:TotalTaxes>
+            <cts:DueDate />
+          </cts:Header>
+          <cts:Items>
+            <cts:Item>
+              <cts:LineNumber>1</cts:LineNumber>
+              <cts:ProductID>0000053</cts:ProductID>
+              <cts:PriceTypeCode>01</cts:PriceTypeCode>
+              <cts:PriceAmount>15.00</cts:PriceAmount>
+            </cts:Item>
+            <cts:Item>
+              <cts:LineNumber>2</cts:LineNumber>
+              <cts:ProductID>0000054</cts:ProductID>
+              <cts:PriceTypeCode>01</cts:PriceTypeCode>
+              <cts:PriceAmount>18.00</cts:PriceAmount>
+            </cts:Item>
+            <cts:Item>
+              <cts:LineNumber>3</cts:LineNumber>
+              <cts:ProductID>0000017</cts:ProductID>
+              <cts:PriceTypeCode>01</cts:PriceTypeCode>
+              <cts:PriceAmount>16.00</cts:PriceAmount>
+            </cts:Item>
+            <cts:Item>
+              <cts:LineNumber>4</cts:LineNumber>
+              <cts:ProductID>0000021</cts:ProductID>
+              <cts:PriceTypeCode>01</cts:PriceTypeCode>
+              <cts:PriceAmount>12.00</cts:PriceAmount>
+            </cts:Item>
+            <cts:Item>
+              <cts:LineNumber>5</cts:LineNumber>
+              <cts:ProductID>0000111</cts:ProductID>
+              <cts:PriceTypeCode>01</cts:PriceTypeCode>
+              <cts:PriceAmount>8.00</cts:PriceAmount>
+            </cts:Item>
+            <cts:Item>
+              <cts:LineNumber>6</cts:LineNumber>
+              <cts:ProductID>0000113</cts:ProductID>
+              <cts:PriceTypeCode>01</cts:PriceTypeCode>
+              <cts:PriceAmount>5.00</cts:PriceAmount>
+            </cts:Item>
+            <cts:Item>
+              <cts:LineNumber>7</cts:LineNumber>
+              <cts:ProductID>0000090</cts:ProductID>
+              <cts:PriceTypeCode>01</cts:PriceTypeCode>
+              <cts:PriceAmount>2.50</cts:PriceAmount>
+            </cts:Item>
+          </cts:Items>
+          <cts:Summary />
+        </cts:AdditionalDocumentInformation>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+    <ext:UBLExtension>
+      <ext:ExtensionContent>
+        <Signature Id="SignatureSP" xmlns="http://www.w3.org/2000/09/xmldsig#">
+          <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+              <Transforms>
+                <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+              </Transforms>
+              <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+              <DigestValue>Xlpdh/0McmtgmHyd6s0JfkuSCT4=</DigestValue>
+            </Reference>
+          </SignedInfo>
+          <SignatureValue>SsbuNAGyRO0CXtpENZQGjmJS9W1pU012oMqAXPDmyaBZNVCvujmhI5hQBEm/6tTXv6QmgXLubQwHNONzjey1PpjHkQ3hgj8KMSZgCBJOTeC0cNOJH0qzSXMe+xeTwVW69MppDIeBm+1m4axR6FAh7aJcPs5r1DpnV9+3GQ4TjAHL44Xj/iPzUBFGZRST8ahTj+w3xd0hlVBDW/Y1pvSSMdx74ipD1nBcrJuBSP/WpYkSzh5xPeYGqO7GZOBgWZZiOSXwr7zbIg9skiHlPhqAjIejIyOwEAA4TQ6qprULBXiqop7bi02X2DwMzIWuoe1/gyaZZnSznYxZy2CDmjFJ/6F8ALBx9vON9oib74YTWdaWgL2KNAzr5khCPy3XA6UPdImDE1YVsJfAIXCSmTW5LQ8zDrO5FVpUMF+N9haxZ3I3naEFQeKGEJJ+5DCJo49D37pzJMUPPnylErtUD6Z6Y6de2TnQJpMRX17Ieut3NKs8SipzUcy0giYnOKhNjYD+ZqLh152VWeY4BrYA2uxNj0uFZG/yO4tCTWNFEC/hd187+gQ4ozlFmnaBSOCbur4dqgOQhSJHiTdcY774U+/U7d1IAhE64cXLkaWvH7bHgakfKx/Ya8xvRGdc4c6UIl6OCc7TlseXcuFHsfiq4ASQ9t9z4AyJa99gC1Xig5y4gtE=</SignatureValue>
+          <KeyInfo>
+            <X509Data>
+              <X509SubjectName>O=Internet Widgits Pty Ltd, S=Some-State, C=AU</X509SubjectName>
+              <X509Certificate>MIIFBjCCAu4CCQDvFuEv4AfPUzANBgkqhkiG9w0BAQUFADBFMQswCQYDVQQGEwJBVTETMBEGA1UECAwKU29tZS1TdGF0ZTEhMB8GA1UECgwYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMB4XDTE1MDUyNzE2MjQwM1oXDTE2MDUyNjE2MjQwM1owRTELMAkGA1UEBhMCQVUxEzARBgNVBAgMClNvbWUtU3RhdGUxITAfBgNVBAoMGEludGVybmV0IFdpZGdpdHMgUHR5IEx0ZDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBANCrSwToCo5iF9w/DPwCDhsgJD+484DXnfjbeZo8Nn7skWeAMDOksPlPGBy/jXHwXv2DnLSepTWHLk/MsFZdf+Tj1aD/VyCxKsrTDf68RY5STYFkHDrMxMwwCoWZ7zAr2Bbijlic3XrjoEk6KENa/3J5Na4JLPJOALWWzjIUrP/xttbKnWrCWGNxUMNUPlQ2N8JYPDhUN4HwSctmqjmD6yQkknZCOEAvjbD4CdEkBvwZthElmq8c4UZ6HQzXFchiRDjiX+b2cGu4HvC72PzSEklY1RgUGO0DO3dt+ilZTW6yPfgSywSwlOzLY5Rji6gw0QTMKzlDB9dL4I4cRfl3bBulft/SvP4bbtrag6T1+PV4fbPes01VEROemi1dF3bqWvC9vJOuvwtR4R26pIjZwZCjNTEIFH250L9qzvX21OH6/LD1S596OQk5O3g5G4l0zn5K6CnnYht57ofZQlP3KE0/1nUGkpwufw3TMeUt3SGvl3KKNJUQOoXfozbYBv97w1gO1Q57iRsmLYQyaJs4WI0cQdKk9E/mLYy2M+5fVfBkOAfAsRnb4Fhei/6BHZxHVKLxzZAZ8lmk2T/Xp5/SLJZzNSQ8dh4WQ84DR1qRvYiySsdyf5rfyZMjLiictYbXPX8xB9FyfajCAbTqEt9VwWnlZUCAtVbySOqJXCCyPLbFAgMBAAEwDQYJKoZIhvcNAQEFBQADggIBAKS565mzGcJZi2vJEt1bWbX2ZA94i5sSi/3obu7whUe++k7ibrFJuTnvD1dOJKFCfB0yprRGqKu8o3+PHCAPWrDTPSBPj0VlWHrs+C+HGdy8T68/y9Wl9fN7z0q7nIVlETzpl8meQFt1w/fzunuRVldtF6LCC5CSeh/jxSwv+tqC2Aknso+nAAZMSWNeShPBU59Q78DTEWM6lxLRtOAOYlruPvapi1w7F9hgGBL04c4LJewSv/YGNK+UIdlBhX0OtI/5PDXmmbArIsUO9USvlrCfXJmS2zwes8qHiFhvUzLA11ASHHTCPBQAUgQFrVcpsk8z2zg0Rq1oEb4H8pek6LbhVMY9rlHqLdFLI2IO9y1W/GAlgqsfHym7g162k0IaPGin5Y3am/gwbYka5dZSUFdPLd7kcqZbwsYcRl7bw/B53eLNdtl0NJqE/DZ8B7oC/NNEoJL6lzgbvbEkZK26jd/3LD/LpTHoJNp73garfGweQ6yE++0zaiJcykN3TowgnSanW4drXckYzj7+PSXGif3+lz1wEtyA6fiRY3Q9S186kUDznVOH46PeLEHQ5jGRfw9QtO6+ejV/Kmx8Bdd+3Jla+mQGnMBqU5npBXVGIrOrQKoX+J1vO/62Yr94nb0pBcWL6tkaioFZEcTXCnhAMXBYhI3CUDYqdTSVo+u1hKTp</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Signature>
+      </ext:ExtensionContent>
+    </ext:UBLExtension>
+  </ext:UBLExtensions>
+  <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+  <cbc:CustomizationID>1.0</cbc:CustomizationID>
+  <cbc:ID>B011-00000014</cbc:ID>
+  <cbc:IssueDate>2015-08-11</cbc:IssueDate>
+  <cbc:InvoiceTypeCode>03</cbc:InvoiceTypeCode>
+  <cbc:Note>PXP-F055CN</cbc:Note>
+  <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+  <cac:Signature>
+    <cbc:ID>SignatureSP</cbc:ID>
+    <cac:SignatoryParty>
+      <cac:PartyIdentification>
+        <cbc:ID>20100111838</cbc:ID>
+      </cac:PartyIdentification>
+      <cac:PartyName>
+        <cbc:Name>Grifos Espinoza S.A.</cbc:Name>
+      </cac:PartyName>
+    </cac:SignatoryParty>
+    <cac:DigitalSignatureAttachment>
+      <cac:ExternalReference>
+        <cbc:URI>#SignatureSP</cbc:URI>
+      </cac:ExternalReference>
+    </cac:DigitalSignatureAttachment>
+  </cac:Signature>
+  <cac:AccountingSupplierParty>
+    <cbc:CustomerAssignedAccountID>20100111838</cbc:CustomerAssignedAccountID>
+    <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PartyName>
+        <cbc:Name>Restaurante La Estacion</cbc:Name>
+      </cac:PartyName>
+      <cac:PostalAddress>
+        <cbc:ID>150140</cbc:ID>
+        <cbc:StreetName>Pan. Sur Km 18.5 Chorrillos-Lima</cbc:StreetName>
+        <cbc:CityName>LIMA</cbc:CityName>
+        <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+        <cbc:District>SANTIAGO DE SURCO</cbc:District>
+        <cac:Country>
+          <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+        </cac:Country>
+      </cac:PostalAddress>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>Grifos Espinoza S.A.</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+    </cac:Party>
+  </cac:AccountingSupplierParty>
+  <cac:AccountingCustomerParty>
+    <cbc:CustomerAssignedAccountID>0</cbc:CustomerAssignedAccountID>
+    <cbc:AdditionalAccountID>0</cbc:AdditionalAccountID>
+    <cac:Party>
+      <cac:PhysicalLocation>
+        <cbc:Description />
+      </cac:PhysicalLocation>
+      <cac:PartyLegalEntity>
+        <cbc:RegistrationName>-</cbc:RegistrationName>
+      </cac:PartyLegalEntity>
+      <cac:Contact />
+    </cac:Party>
+  </cac:AccountingCustomerParty>
+  <cac:PaymentMeans>
+    <cbc:PaymentMeansCode />
+  </cac:PaymentMeans>
+  <cac:TaxTotal>
+    <cbc:TaxAmount currencyID="PEN">11.67</cbc:TaxAmount>
+    <cac:TaxSubtotal>
+      <cbc:TaxAmount currencyID="PEN">11.67</cbc:TaxAmount>
+      <cac:TaxCategory>
+        <cac:TaxScheme>
+          <cbc:ID>1000</cbc:ID>
+          <cbc:Name>IGV</cbc:Name>
+          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+        </cac:TaxScheme>
+      </cac:TaxCategory>
+    </cac:TaxSubtotal>
+  </cac:TaxTotal>
+  <cac:LegalMonetaryTotal>
+    <cbc:TaxInclusiveAmount currencyID="PEN">76.50</cbc:TaxInclusiveAmount>
+    <cbc:AllowanceTotalAmount currencyID="PEN">0.00</cbc:AllowanceTotalAmount>
+    <cbc:ChargeTotalAmount currencyID="PEN">0.00</cbc:ChargeTotalAmount>
+    <cbc:PayableAmount currencyID="PEN">76.50</cbc:PayableAmount>
+  </cac:LegalMonetaryTotal>
+  <cac:InvoiceLine>
+    <cbc:ID>1</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">12.71</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">15.00</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">2.29</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">12.71</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">2.29</cbc:TaxAmount>
+        <cbc:Percent>18.00</cbc:Percent>
+        <cac:TaxCategory>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>Tortilla de Pollo con verduras</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>0000053</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">12.71</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>2</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">15.25</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">18.00</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">2.75</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">15.25</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">2.75</cbc:TaxAmount>
+        <cbc:Percent>18.00</cbc:Percent>
+        <cac:TaxCategory>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>Combinado (Tallarin y Chaufa)</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>0000054</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">15.25</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>3</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">13.56</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">16.00</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">2.44</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">13.56</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">2.44</cbc:TaxAmount>
+        <cbc:Percent>18.00</cbc:Percent>
+        <cac:TaxCategory>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>Chicharron de pollo</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>0000017</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">13.56</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>4</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">10.17</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">12.00</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">1.83</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">10.17</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">1.83</cbc:TaxAmount>
+        <cbc:Percent>18.00</cbc:Percent>
+        <cac:TaxCategory>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>Leche de Tigre</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>0000021</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">10.17</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>5</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">6.78</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">8.00</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">1.22</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">6.78</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">1.22</cbc:TaxAmount>
+        <cbc:Percent>18.00</cbc:Percent>
+        <cac:TaxCategory>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>Cerveza Cusqueña Blanca x 620ml.</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>0000111</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">6.78</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>6</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">4.24</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">5.00</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">0.76</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">4.24</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">0.76</cbc:TaxAmount>
+        <cbc:Percent>18.00</cbc:Percent>
+        <cac:TaxCategory>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>Cerveza Cusqueña blanca x 330 ml.</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>0000113</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">4.24</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+  <cac:InvoiceLine>
+    <cbc:ID>7</cbc:ID>
+    <cbc:InvoicedQuantity unitCode="NIU">1.00</cbc:InvoicedQuantity>
+    <cbc:LineExtensionAmount currencyID="PEN">2.12</cbc:LineExtensionAmount>
+    <cac:PricingReference>
+      <cac:AlternativeConditionPrice>
+        <cbc:PriceAmount currencyID="PEN">2.50</cbc:PriceAmount>
+        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+      </cac:AlternativeConditionPrice>
+    </cac:PricingReference>
+    <cac:TaxTotal>
+      <cbc:TaxAmount currencyID="PEN">0.38</cbc:TaxAmount>
+      <cac:TaxSubtotal>
+        <cbc:TaxableAmount currencyID="PEN">2.12</cbc:TaxableAmount>
+        <cbc:TaxAmount currencyID="PEN">0.38</cbc:TaxAmount>
+        <cbc:Percent>18.00</cbc:Percent>
+        <cac:TaxCategory>
+          <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+          <cac:TaxScheme>
+            <cbc:ID>1000</cbc:ID>
+            <cbc:Name>IGV</cbc:Name>
+            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+          </cac:TaxScheme>
+        </cac:TaxCategory>
+      </cac:TaxSubtotal>
+    </cac:TaxTotal>
+    <cac:Item>
+      <cbc:Description>DONOFRIO COPA K-BANA</cbc:Description>
+      <cac:SellersItemIdentification>
+        <cbc:ID>0000090</cbc:ID>
+      </cac:SellersItemIdentification>
+    </cac:Item>
+    <cac:Price>
+      <cbc:PriceAmount currencyID="PEN">2.12</cbc:PriceAmount>
+    </cac:Price>
+  </cac:InvoiceLine>
+</Invoice>

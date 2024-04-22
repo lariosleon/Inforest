@@ -1,0 +1,10 @@
+Operador	string	50	
+Propiedad	string	50	
+Pedido	string	15	
+Producto	string	50	
+Fecha	string	50	
+Cantidad	Number	
+Venta	Number	
+Documento	string	50	
+Observacion	string	50	
+Item	string	50	

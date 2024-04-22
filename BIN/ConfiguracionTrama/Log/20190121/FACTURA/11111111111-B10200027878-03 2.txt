@@ -1,0 +1,42 @@
+FECHA REG: 2019-01-21 18:14:42
+
+RUC: 11111111111
+
+SEND: @**@2	1	20537995581	 002	03	EN|03|B102-00027878||||2019-01-21|PEN|20537995581|6|                                                             Restaurant pruebas infomatica Comercial|                                                                Restaurant pruebas infomatica Social|150101|                                                                     Av. Angamos Oeste 1494  - dir 1|                LIMA|                LIMA|                          LIMA|              0|0|                                                                                  PRUEBA DE SISTEMAS|                                                                                                 JJK|29.69|5.34|0.00|2.97|38.00||29.69|              0|0|PE|
+ENEX|2.1|0101||||2019-01-21|18:15:00|1000|38|
+DOC|1001|29.69|||
+DOC|2005|0|||
+DN| 1|1000|                                                                       TREINTA Y OCHO y 00/100 Soles|
+DE|001|12.00|NIU|1.00|8.64|                       0001241|01|9.38|12.00||||
+DEDI|Aceitunas negras sin pep
+DEDR|false|0
+DEIM|1.69|38.00|1.69|18||10||1000|IGV|VAT
+DE|002|14.00|NIU|1.00|10.08|                       0001243|01|10.94|14.00||||
+DEDI|Aceitunas verdes rellena
+DEDR|false|0
+DEIM|1.97|38.00|1.97|18||10||1000|IGV|VAT
+DE|003|12.00|NIU|1.00|8.64|                       0001241|01|9.38|12.00||||
+DEDI|Aceitunas negras sin pep
+DEDR|false|0
+DEIM|1.69|38.00|1.69|18||10||1000|IGV|VAT
+DI|5.34|5.34|1000|   IGV|VAT|
+PE|CorreoCliente|ERIK@HOTMAIL.COM
+PE|NomSuc|Restaurant pruebas infomatica Comercial
+PE|DirSuc|Prueba direccion 2
+PE|TelSuc|Teléfono: 626-1313 Delivery:705-8885
+PE|Pedido|1900000047
+PE|HoraEmision|  6:15:00 PM
+PE|Tipo|Para Llevar
+PE|CAJA|002 - JCARDENAS
+PE|Mesero|
+PE|NroSerie|
+PE|Obs|
+PE|ValorISC|0%
+PE|ValorIGV|18%
+PE|Servicio|10%
+PE|PagWeb|www.RestaurantPrueba.com
+PE|SubTotal|38.00
+PES|MensajesDt
+PESD|1|GRACIAS POR SU VISITA*@@*
+
+RECEIVE: 0	La operacion ha sido exitosa	F012-7826050	F012-7826050	F012-7826050

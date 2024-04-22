@@ -1,0 +1,7 @@
+FECHA REG: 2019-01-22 10:34:27
+
+RUC: 11111111111
+
+SEND: @**@1	0	20537995581	 002	0001*@@*
+
+RECEIVE: 11	Error al configurar el POS-ASP: Server returned HTTP response code: 505 for URL: http://172.16.1.27:8060/Facturacion/webservices/posmessage.jsp?nc= 002&c=0&re=20537995581&nl=0001&ip=161.132.106.114

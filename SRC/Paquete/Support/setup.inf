@@ -1,0 +1,95 @@
+;*** BEGIN **********************************************************
+;**                                                                **
+;** Automatically generated on: Thu Nov 20 20:26:44 2014           **
+;**                                                                **
+;** MakeCAB Version: (32) 1.00.603.4 (06/25/98)                     **
+;**                                                                **
+;*** BEGIN **********************************************************
+[disk list]
+1,Disk 1
+[cabinet list]
+1,1,InfoRest.CAB
+[file list]
+1,0,Setup.Lst,9447
+1,0,setup.exe,141824
+1,1,InfoRest.exe,12685312
+1,1,msvbvm60.dll,1384479
+1,1,OLEAUT32.DLL,598288
+1,1,OLEPRO32.DLL,164112
+1,1,ASYCFILT.DLL,147728
+1,1,STDOLE2.TLB,17920
+1,1,COMCAT.DLL,22288
+1,1,VB6ES.DLL,119568
+1,1,CAJA_PINPAD.dll,237655
+1,1,CRViewer.dll,317520
+1,1,craxdrt.dll,3305472
+1,1,Libreria16.dll,45056
+1,1,CDO32.dll,26624
+1,1,Craxdui.dll,303104
+1,1,dzactx.dll,249856
+1,1,duzactx.dll,229376
+1,1,dzstactx.dll,69632
+1,1,scrrun.dll,172032
+1,1,MSVCRT.DLL,278581
+1,1,scrrnes.dll,24626
+1,1,msxml6.dll,1307648
+1,1,BlueVision.Core.TVS.tlb,5448
+1,1,MSCOMCT2.OCX,662288
+1,1,MSCC2ES.DLL,60928
+1,1,COMDLG32.OCX,152848
+1,1,CMDLGES.DLL,33280
+1,1,MSCOMCTL.OCX,1069376
+1,1,MSCMCES.DLL,140800
+1,1,MSMAPI32.OCX,137000
+1,1,MSMPIES.DLL,23040
+1,1,todg8.ocx,1097728
+1,1,todgub8.dll,249856
+1,1,tdbgpp8.dll,503808
+1,1,MSDATLST.OCX,234016
+1,1,DATLSES.DLL,30208
+1,1,MSCHRT20.OCX,1010720
+1,1,MSCH2ES.DLL,108032
+1,1,TABCTL32.OCX,224016
+1,1,TABCTES.DLL,21504
+1,1,MSCOMM32.OCX,103744
+1,1,MSCOMES.DLL,14336
+1,1,MSWINSCK.OCX,124688
+1,1,WINSKES.DLL,15360
+1,1,MCI32.OCX,200224
+1,1,MCIES.DLL,32256
+1,1,MDAC_TYP.EXE,6477888
+1,1,SETUP1.EXE,253952
+1,1,VB6STKIT.DLL,101888
+1,1,ST6UNST.EXE,74240
+1,1,Adicion.exe,3506176
+1,1,Administracion.exe,9244672
+1,1,Consulta.exe,11952128
+1,1,Inforest.emf,1767140
+1,1,Cliente.jpg,18996
+1,1,Inforest.ini,306
+1,1,Tiempo.ini,4
+1,1,Almacen.ini,138
+1,1,u2ddisk.dll,45056
+1,1,u2dmapi.dll,125901
+1,1,u2dpost.dll,90112
+1,1,u2fhtml.dll,223232
+1,1,u2frtf.dll,100864
+1,1,u2fxls.dll,137216
+1,1,MSBIND.DLL,78848
+1,1,qrcodelib.dll,416768
+1,1,DLL3500.ini,253
+1,1,Motorizado.exe,180224
+1,1,Despachador.exe,1765376
+1,1,zip32.dll,151552
+1,1,implode.dll,18944
+1,1,Actualizador.exe,32768
+1,1,COMCT232.OCX,164144
+1,1,CMCT2ES.DLL,23552
+1,1,BlueVision.ini,53
+1,1,USUARIO.INI,9
+1,1,RUTA.INI,13
+;*** END ************************************************************
+;**                                                                **
+;** Automatically generated on: Thu Nov 20 20:26:44 2014           **
+;**                                                                **
+;*** END ************************************************************

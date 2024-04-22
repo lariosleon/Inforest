@@ -1,0 +1,7 @@
+FECHA REG: 2019-01-22 08:26:50
+
+RUC: 11111111111
+
+SEND: @**@1	1	20537995581	 002	0001*@@*
+
+RECEIVE: 0	La operacion ha sido exitosa
